@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Italiana&family=Nunito:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&family=Roboto:wght@300;400;500&family=Source+Code+Pro:wght@400;600;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Italiana&family=Nunito:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&family=Roboto:wght@300;400;500&family=Source+Code+Pro:wght@400;600;700&family=Ubuntu&family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Italiana&family=Nunito:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&family=Roboto:wght@300;400;500&family=Source+Code+Pro:wght@400;600;700&family=Ubuntu&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #232025ff;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #232025ff;
+    font-family: 'Work Sans', sans-serif;
+    overflow: hidden;
+}
+#home {
+    width: 100%;
+    height: 100vh;
+
+}
+#nav {
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6vw 6vw;
+}
+
+#nav h2 {
+    font-size: 1.8vw;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.3vw;
+    opacity: 0.7;
+}
+
+#right-nav {
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+}
+
+#right-nav h3 {
+    font-size: 1.6vw;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.7;
+    
+}
+
+#right-nav i {
+    font-size: 2.3vw;
+    color: #fff;
+    opacity: 0.7;
+}
+#first {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 6vw;
+    position: relative;
+}
+
+.firsthead {
+    font-size: 15vw;
+    color: white;
+    opacity: 0.7;
+}
+
+#belowpara {
+    position: relative;
+    top: 15%;
+    left: 15%;
+    justify-content: flex-end;
+    width: fit-content;
+    overflow: hidden;
+    margin-top: 10vw;
+}
+
+#belowpara .firstdiv {
+    transform: translateY(5%);
+    
+}
+
+#leftaligntext {
+    text-align: right !important;
+}
+
+#belowpara  h3 {  
+    font-size: 2.8vw;
+    font-weight: 400;
+    color: white;
+    opacity: 0.7;
+    
+}
+
+.imagediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 4vw 8vw;
+    
+}
+.imagediv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#part-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;  
+}
+#part-2 h1 {
+    font-weight: 500;
+    line-height: 1.1;
+    font-style: normal;
+    font-size: 4vw;
+    width: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    
+}
+#part-2 .part-2subheading {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.strip {
+    width: 300%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)3s;
+}
+.strip:nth-child(2n) {
+    margin-left: -100%;
+}
+
+#part-3 {
+    width: 100%;
+    height: 100vh;
+}
+
+#part-3 h1 {
+    color: white;
+    font-size: 14vw;
+    line-height: 14vh;
+    opacity: 0.7;
+}
+#part-3 h1 span {
+    color: transparent;
+    -webkit-text-stroke:  1px white;
+}
