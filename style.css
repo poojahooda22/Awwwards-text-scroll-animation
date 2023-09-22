@@ -14,8 +14,8 @@ html, body {
 }
 
 #main {
-    width: 100%;
-    min-height: 100vh;
+    /* width: 100%;
+    min-height: 100vh; */
     background-color: #232025ff;
     font-family: 'Work Sans', sans-serif;
     overflow: hidden;
@@ -70,6 +70,14 @@ html, body {
     padding: 4vw 6vw;
     position: relative;
 }
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.boundingelem {
+    transform: translateY(100%);
+}
 
 .firsthead {
     font-size: 15vw;
@@ -122,11 +130,12 @@ html, body {
 }
 
 #part-2 {
+    margin-top: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;  
+    height: 60vh;  
 }
 #part-2 h1 {
     font-weight: 500;
