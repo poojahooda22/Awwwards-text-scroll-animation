@@ -135,7 +135,7 @@ html, body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60vh;  
+    min-height: 60vh;  
 }
 #part-2 h1 {
     font-weight: 500;
@@ -163,7 +163,7 @@ html, body {
 
 #part-3 {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #part-3 h1 {
